@@ -1,0 +1,18 @@
+// $primary:#ccebff;
+
+.d-inline-block {
+    filter: drop-shadow(2px 3px 2px rgb(0 0 0 / 0.4));
+}
+
+.navbar{
+    --bs-bg-opacity:1;
+    background-color: rgba(var(--bs-bg-opacity), var(--bs-bg-opacity)) !important;
+}
+// Import all of Bootstrap's CSS
+@import "~bootstrap/scss/bootstrap";
+
+// .navbar-nav{
+//     margin-left: auto;
+// }
+
+
